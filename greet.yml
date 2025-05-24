@@ -1,4 +1,4 @@
-msg : Sure! Here's a paragraph summarizing your Spring Cloud Config client setup:
+msg : 
 The Spring Boot application named **"greet"** is configured to run on port **9090** and fetch its 
 externalized configuration from a **Spring Cloud Config Server** running at `http://localhost:8080`.
 This is achieved using the `spring.config.import` property with the `optional:configserver:` prefix, 
@@ -7,7 +7,6 @@ application name as "greet", the config server will attempt to load properties f
 or `greet.properties` in the remote configuration repository. This setup centralizes configuration management, making it easier to
 maintain consistency across multiple services.
 
-Let me know if you'd like this tailored for documentation, a presentation, or something else.
 
 
 
