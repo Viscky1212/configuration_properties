@@ -1,11 +1,5 @@
-msg : 
-The Spring Boot application named **"greet"** is configured to run on port **9090** and fetch its 
-externalized configuration from a **Spring Cloud Config Server** running at `http://localhost:8080`.
-This is achieved using the `spring.config.import` property with the `optional:configserver:` prefix, 
-which ensures the application can still start even if the config server is temporarily unavailable. By specifying the 
-application name as "greet", the config server will attempt to load properties from a corresponding file such as `greet.yml`
-or `greet.properties` in the remote configuration repository. This setup centralizes configuration management, making it easier to
-maintain consistency across multiple services.
+msg : The Spring Boot application named **"greet"** is configured to run on port **9090** and fetch its 
+
 
 
 
